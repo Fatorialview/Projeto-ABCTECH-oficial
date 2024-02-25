@@ -6,37 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registre-se</title>
 </head>
-
 <body>
     <header>
-        <img src="abctech.png" width="150" alt="logo Abctech" />
+        <figure>
+            <img src="abctech.png" width="150" alt="logo Abctech" />
+        </figure>
     </header>
-
     <main>
         <font color="black">
             <h1>Registre-se</h1>
         </font>
-        <img src="" alt="" align="right" width="600" height="500">
-
+        <figure>
+            <img src="" alt="" align="right" width="600" height="500">
+        </figure>
         <form>
             <div>
-                <h3><U><i>Vamos começar uma nova jornada ?!!?</i></U></h3>
-                <label>Nome </label><input type="text" /><br>
-                <label>Idade </label><input type="text" /><br>
-                <label>Email </label><input type="text" /><br>
-                <label>Senha </label><input type="password" /><br>
-
-                <button><a href="">Enviar</a></button>
-
-                <button><a
-                        href="c:\Users\Josuan\Documents\GitHub\html-Projeto-Integrador-Proz-split-2\inicio.html">Home</a></button>
-
-
+                <h3><i>Vamos começar uma nova jornada ?!!?</i></h3>
+                <imput type="text" placeholder="ex=josuan" id="nome" name="nome">
+                    <fieldset>
+                        <label for="nome">Nome:</label>
+                        <input type="text" placeholder="Nome"><br>
+                    </fieldset>
+                    <fieldset>
+                        <label for="idade" minlength="1">Idade:</label>
+                        <input type="number" placeholder="Idade"><br>
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">E-mail:</label>
+                        <input type="email" placeholder="Email"><br>
+                    </fieldset>
+                    <fieldset>
+                        <label for="password">Senha:</label>
+                        <input type="password" placeholder="Senha"><br>
+                    </fieldset>
+                    <select name="conhecimento" id="">
+                        <option value="">Qual e seu nivel de conhecimento ?</option>
+                        <option value="easy">Easy</option>
+                        <option value="normal">Normal</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                    <br>
+                    <button><a href="">Enviar</a></button>
+                    <button><a
+                            href="c:\Users\Josuan\Documents\GitHub\html-Projeto-Integrador-Proz-split-2\inicio.html">Home</a></button>
+                    <button type="reset">Limpar</button>
+                    <h4>Esta com dificuldade em registra-se ??</h4>
+                    <button><a href="abctech@gmail.com"></a>click aqui </button>
             </div>
         </form>
-
     </main>
-
     <footer>
         <section class="redes-sociais">
             <h4> Nossa redes sociais</h4>
@@ -48,13 +66,9 @@
                 <div class="creditos">
                     <h3>ABCTech</h3>
                     <p><i>© ABCTech todos os direitos reservados</i></p>
-
                 </div>
-
             </div>
         </section>
-
     </footer>
 </body>
-
 </html>
