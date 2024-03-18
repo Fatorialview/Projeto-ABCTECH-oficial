@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(./imagens/menina.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover;
+    background-position:left;
+
+}
+
+header {
+    display: flex;
+    padding: 50px;
+    margin-bottom: 1px;
+}x
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 2%;
+    padding-right: 5%;
+    margin-bottom: 100%;
+    list-style-type: none;
+}
+
+.nav-list ul li {
+    
+    display: inline-flex;
+    padding: 3px 50px;
+}
+
+.nav-list ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+.nav-list ul li a:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+
+.logo{
+    
+    width: 25%;
+    height: 50%;
+    
+}
+
+img{
+    border-radius: 60px;
+}
+
+.nav-login ul li {
+    background-color: rgb(231, 86, 195);
+    text-decoration:none;
+    font-weight: bold;
+    padding: 3% 70px 10px;
+    margin: 200%;
+    border-radius: 20px;
+    transition: transform .2s;
+    margin-bottom: 20%;
+    margin-top: 5%;
+    padding-left: 20%;
+}
+
+.nav-login ul li:hover{
+    transform: scale(1.2);
+}
+
+.container{
+    margin: 50px
+    
+}
+
+.center {
+    display: block;
+}
+h1{
+    font-size: 400%; 
+    margin-left: 40px;   
+    padding: 10px;
+    color: black;
+    margin-bottom: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1 span {
+    
+    font-size: 200%;
+    color: rgb(238, 24, 95);
+    font-weight: bold;
+    margin: 80px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+        
+p{
+    margin: 50px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 100;
+    font-weight: bold;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+    
+button {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 150px;
+    height: 50%;
+    background:  rgb(35, 204, 57);
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 40%;
+    margin-left: 270px;
+    
+}
+
+footer{
+    color: white;
+    display: block;
+    text-align: center;
+    
+}
+
+.link ul{
+    margin-bottom: 20px;
+    
+}
+
+.pe{
+    font-size: smaller;
+    
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.rede{
+    font-size: larger;
+    
+    margin-top: 1px;
+    
+}
+
+a {
+    color: white;
+    
+}
+
+.creditos{ 
+    font-size: smaller;
+    
+    margin-top: 10px;
+    margin-bottom: 1px;
+    
+}
+
