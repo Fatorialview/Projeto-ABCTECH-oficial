@@ -5,54 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registre-se</title>
+    <link rel="stylesheet" href="./assets/css/style_registro.css">
+
 </head>
+
 <body>
     <header>
         <figure>
             <img src="abctech.png" width="150" alt="logo Abctech" />
         </figure>
     </header>
+
     <main>
         <font color="black">
             <h1>Registre-se</h1>
         </font>
         <figure>
-            <img src="" alt="" align="right" width="600" height="500">
+            <img src="Computing-1.jpeg" alt="" align="right" width="1300" height="700">
         </figure>
+
         <form>
             <div>
                 <h3><i>Vamos começar uma nova jornada ?!!?</i></h3>
+
                 <imput type="text" placeholder="ex=josuan" id="nome" name="nome">
-                    <fieldset>
+                    <fieldset id="nome">
                         <label for="nome">Nome:</label>
                         <input type="text" placeholder="Nome"><br>
                     </fieldset>
-                    <fieldset>
-                        <label for="idade" minlength="1">Idade:</label>
+                    <fieldset id="idade">
+                        <label for="idade" minlength="1" >Idade:</label>
                         <input type="number" placeholder="Idade"><br>
                     </fieldset>
-                    <fieldset>
-                        <label for="email">E-mail:</label>
+                    <fieldset id="email">
+                        <label for="email" >E-mail:</label>
                         <input type="email" placeholder="Email"><br>
                     </fieldset>
-                    <fieldset>
-                        <label for="password">Senha:</label>
+                    <fieldset id="password">
+                        <label for="password" >Senha:</label>
                         <input type="password" placeholder="Senha"><br>
                     </fieldset>
-                    <select name="conhecimento" id="">
+                    <select name="conhecimento" id="nivel" >
                         <option value="">Qual e seu nivel de conhecimento ?</option>
                         <option value="easy">Easy</option>
                         <option value="normal">Normal</option>
                         <option value="hard">Hard</option>
-                    </select>
-                    <br>
-                    <button><a href="">Enviar</a></button>
-                    <button><a
-                            href="c:\Users\Josuan\Documents\GitHub\html-Projeto-Integrador-Proz-split-2\inicio.html">Home</a></button>
+                        <br>
+
+                    </select><br>
                     <button type="reset">Limpar</button>
+                    <button id="enviar"><a href="">Enviar</a></button><br>
+                    <button id="home">
+                        <a href="inicio.html">Home</a></button>
                     <h4>Esta com dificuldade em registra-se ??</h4>
-                    <button><a href="abctech@gmail.com"></a>click aqui </button>
-            </div>
+                    <button><a href="contato.html"></a>click aqui </button>
         </form>
     </main>
     <footer>
@@ -61,7 +67,7 @@
             <p> Visite nossas rede sociais </p>
             <div class="link">
                 <ul>
-                    <li><a class="link1" href="#"> GitHub</a></li>
+                    <li><a class="link1" href="https://github.com/Fatorialview/Projeto-ABCTECH-oficial"> GitHub</a></li>
                 </ul>
                 <div class="creditos">
                     <h3>ABCTech</h3>
