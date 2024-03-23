@@ -1,0 +1,23 @@
+
+#nao_tem_conta,#lembrar{
+    color: lightgoldenrodyellow;
+    animation: blink 2s infinite;
+}
+
+#Nome{
+    background: rgb(233, 189, 109);
+    border: 1px solid black;
+}
+#Senha{
+    background: rgb(233, 189, 109) ;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+#sim_nao{
+    background: rgb(233, 189, 109);
+    width: auto;
+    border: 5px solid black;
+}
+body{
+    background: linear-gradient(rgb(95, 4, 95),blueviolet);
+}
