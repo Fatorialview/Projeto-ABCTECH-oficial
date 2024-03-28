@@ -80,6 +80,8 @@ img{
     transform: scale(1.2);
 }
 
+
+
 .container{
     margin: 50px
     
@@ -107,10 +109,25 @@ h1 span {
     font-family:'Times New Roman', Times, serif;
     
 }
+
+.glass{
+    
+    width: 800px;
+    height: 150px;
+    background: transparent;
+    box-shadow: 0 25px 45px black;
+    border-radius: 50px;
+    border: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    backdrop-filter: blur(10px);
+    
+    
+}
         
 p{
     margin: 50px;
-    padding: 10px;
+    padding: 18px;
     font-size: larger;
     font-weight: 100;
     font-weight: bold;
@@ -118,6 +135,8 @@ p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+
     
 button {
     display: flex;
