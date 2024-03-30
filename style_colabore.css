@@ -1,0 +1,71 @@
+body {
+  background-image: url('tela_colabore.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+nav ul li {
+  color: black;
+  display: inline;
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-flex;
+  padding: 3px 100px;
+
+}
+
+#nav-login {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  padding: 10px;
+
+}
+
+#ola {
+  color: white;
+}
+
+#meio {
+  color: black;
+  background-color: lightblue;
+  margin-right: 2rem;
+  padding: 1rem 1.5rem;
+  width: 97%;
+  border-radius: 8px;
+}
+
+#Obrigado {
+  color: white;
+}
+
+#contato {
+  color: white
+}
+
+#link {
+  color: white;
+}
+
+
+#rodape {
+  color: white;
+}
+
+#git {
+  color: white;
+}
+
+footer {
+  color: white;
+  display: block;
+  text-align: center;
+}
