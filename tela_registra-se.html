@@ -5,30 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registre-se</title>
-    <link rel="stylesheet" href="./assets/css/style_registro.css">
+    <link rel="stylesheet" href="style_registro.css">
 
 </head>
 
 <body>
-    <header>
-        <figure>
-            <img src="abctech.png" width="150" alt="logo Abctech" />
-        </figure>
-    </header>
+    <header>    
+    <div class="cabeça">
+        <div class="logo">
+          <a href="inicio.html"><img src="./imagens/abctech.png" width="20%"/> </a> 
+        </div>    
+      
+        <!--menu-->
+        <div class="nav-list">
+          <ul>
+            <li><a href="inicio.html">INICIO</a></li>
+            <li><a href="cursos.html">CURSOS</a></li>
+            <li><a href="colabore.html">COLABORE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+          </ul>
+        </div>  <!--nav-list-->
+    </div>    
+    <header> 
 
     <main>
         <font color="black">
-            <h1>Registre-se</h1>
+            <h1><u>Registre-se</u></h1>
         </font>
-        <figure>
-            <img src="Computing-1.jpeg" alt="" align="right" width="1300" height="700">
+        <figure id="foto">
+            <img src="./imagens/Computing-1.jpeg" alt="" align="right" width="1300" height="650">
         </figure>
+
 
         <form>
             <div>
                 <h3><i>Vamos começar uma nova jornada ?!!?</i></h3>
 
-                <imput type="text" placeholder="ex=josuan" id="nome" name="nome">
+                <input type="text" placeholder="ex=josuan" id="nome" name="nome">
                     <fieldset id="nome">
                         <label for="nome">Nome:</label>
                         <input type="text" placeholder="Nome"><br>
@@ -53,28 +66,31 @@
                         <br>
 
                     </select><br>
-                    <button type="reset">Limpar</button>
-                    <button id="enviar"><a href="">Enviar</a></button><br>
-                    <button id="home">
-                        <a href="inicio.html">Home</a></button>
+                    <button class="limpar" type="reset">Limpar</button>
+                    <button id="enviar"><a href="#">Enviar</a></button><br>
+                    <button id="home"><a href="inicio.html">Home</a></button>
                     <h4>Esta com dificuldade em registra-se ??</h4>
-                    <button><a href="contato.html"></a>click aqui </button>
+                    <button class="click"><a href="contato.html">Click aqui</a></button>
         </form>
     </main>
-    <footer>
-        <section class="redes-sociais">
-            <h4> Nossa redes sociais</h4>
-            <p> Visite nossas rede sociais </p>
-            <div class="link">
-                <ul>
-                    <li><a class="link1" href="https://github.com/Fatorialview/Projeto-ABCTECH-oficial"> GitHub</a></li>
-                </ul>
-                <div class="creditos">
-                    <h3>ABCTech</h3>
-                    <p><i>© ABCTech todos os direitos reservados</i></p>
-                </div>
-            </div>
-        </section>
-    </footer>
+
+    <footer>  
+        
+        <div class="rodape">      
+            <p class="pe"> Visite nossas rede sociais </p>
+              <div class="link">
+                  <ul class="rede">
+                      <li><a href="https://github.com/Fatorialview/Projeto-ABCTECH-oficial" target="_blank"> GitHub </a></li>
+                  </ul>
+                
+                  
+                  <p class="creditos"><i>© ABCTech todos os direitos reservados</i></p>
+  
+                   
+  
+              </div>
+        </div>     
+        
+      </footer>
 </body>
 </html>

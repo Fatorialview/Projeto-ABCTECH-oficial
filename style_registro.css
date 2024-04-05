@@ -1,8 +1,69 @@
 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+    
+
+.cabeça{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    
+    width: 25%;
+    height: 50%;
+    margin-left: 1rem;
+    padding-left: 3rem;
+    margin-top: 2rem;
+}
+
+    
+
+img{
+    border-radius: 60px;
+    
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    margin-right: 40rem;
+    font-size: 1.5rem;
+    
+}
+
+.nav-list ul li a {
+    color:antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: larger;
+    margin-left: 10rem;
+}
+
+
+.nav-list ul li a:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+
 #nome{
     background:  rgb(233, 189, 109);
     width: auto;
     border: 1px solid rgb(46, 44, 44);
+    
 }
 #idade{
     background:  rgb(233, 189, 109);
@@ -31,4 +92,111 @@
 }
 body{
     background: linear-gradient(rgb(49, 1, 49),blueviolet);
+    margin: 1rem;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 2rem;
+    margin-left: 17rem;
+    color: rgb(138, 48, 48)
+}
+
+h3{
+    font-size: 3rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    color: rgb(144, 216, 238)
+}
+
+input{
+    font-size: 2.5em;
+    
+}
+
+
+#nome, #idade, #email, #password{
+    margin-bottom: 3rem;
+}
+
+label{
+    font-size: 2.5em;
+}
+
+#nivel{
+    font-size: 2.5rem;
+}
+
+button{
+    font-size: 2.5rem;
+}
+
+#enviar{
+    background-color: blue;
+    
+    margin-left: 15rem;
+}
+
+.limpar{
+    background-color: red;
+    margin-left: 6rem; 
+}
+
+#home{
+    margin-left:17rem; 
+    
+    background-color: blue;
+}
+
+h4{
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+
+.click{
+    margin-left: 15rem;
+    background-color: green;
+    
+}
+
+
+
+
+
+
+.rodape{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+}
+
+.link ul{
+    margin-bottom: 0.5rem;
+    
+}
+
+.pe{
+    font-size: l;
+    
+    margin-bottom: 0.1rem;
+    margin-top: 1rem;
+}
+
+.rede{
+    font-size: larger;
+    
+        
+}
+
+a {
+    color: white;
+    
+}
+
+.creditos{ 
+    font-size: smaller;
+    
+    margin-top: 0.1rem;
 }

@@ -3,26 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_login.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
-    <link  rel="stylesheet" href="./assets/css/style_login.css">   
+    
 </head>
 
-<body>
-    <header>
-        <figure id="foto">
-            <img title="abctech" alt="logo abctech" src="abctech.png" width="150" />
-        </figure>
-    </header>
+<header>
+    <div class="cabeça">
+        <div class="logo">
+          <a href="inicio.html"><img src="./imagens/abctech.png" width="20%"/> </a> 
+        </div>    
+      
+        <!--menu-->
+        <div class="nav-list">
+          <ul>
+            <li><a href="inicio.html">INICIO</a></li>
+            <li><a href="cursos.html">CURSOS</a></li>
+            <li><a href="colabore.html">COLABORE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+          </ul>
+        </div>  <!--nav-list-->
+    </div>    
+<header> 
+    
 
+<body>
+   
     <main>
         <figure id="foto">
-            <img src="tela_login_imagem.png" alt="" align="right" width="1300" height="750">
+            <img src="tela_login_imagem.png" alt="" align="right" width="1300" height="650">
         </figure>
 
         <font color="black">
-            <h1 id="login">Login</h1>
+            <h1 id="login"><u>Login</u></h1>
         </font>
         <form method="get" action="" id="form"> </form>
         <fieldset id="Nome">
@@ -34,31 +49,37 @@
             <input type="password" placeholder="Senha"><br>
         </fieldset>
         <br>
-        <button>Entrar</button>
-        <h3 id="nao_tem_conta">não tem conta??</h3>
-        <button><a href="tela_registra-se.html">registre-se aqui</a></button>
+
+        <div class="info">
+            <button class="botao3"><a class="botao" href="cursos.html">Entrar</a></button>
+            <h3 id="nao_tem_conta">Não tem conta??</h3>
+            <button class="botao4"><a class="botao2" href="tela_registra-se.html">registre-se aqui</a></button>
+        </div>
 
     </main>
 
-    <footer>
-        <section class="redes-sociais">
-            <h4> Nossa redes sociais</h4>
-            <p> Visite nossas rede sociais </p>
-            <div class="link">
-                <ul>
-                    <li><a class="link1" href="https://github.com/Fatorialview/Projeto-ABCTECH-oficial" > GitHub</a></li>
+
+    <footer>  
         
-                </ul>
-                <div class="creditos">
-                    <h3>ABCTech</h3>
-                    <p><i>© ABCTech todos os direitos reservados</i></p>
+        <div class="rodape">      
+            <p class="pe"> Visite nossas rede sociais </p>
+              <div class="link">
+                  <ul class="rede">
+                      <li><a href="https://github.com/Fatorialview/Projeto-ABCTECH-oficial" target="_blank"> GitHub </a></li>
+                  </ul>
+                
+                  
+                  <p class="creditos"><i>© ABCTech todos os direitos reservados</i></p>
+  
+                   
+  
+              </div>
+        </div>     
+        
+      </footer>
 
-                </div>
-
-            </div>
-        </section>
-
-    </footer>
+    
+    
 </body>
 
 </html>

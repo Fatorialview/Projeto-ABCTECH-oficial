@@ -5,7 +5,7 @@ body {
   background-position: center;
 }
 
-
+/*
 nav ul li {
   color: black;
   display: inline;
@@ -28,6 +28,57 @@ nav ul li a {
   width: 40%;
   padding: 10px;
 
+}
+*/
+
+
+.cabeça{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.logo{
+  
+  width: 25%;
+  height: 50%;
+  margin-left: 1rem;
+  padding-left: 3rem;
+}
+
+  
+
+img{
+  border-radius: 60px;
+  
+}
+
+.nav-list ul {
+  display: flex;
+  list-style: none;
+  gap: 10rem;
+  margin-right: 40rem;
+}
+
+.nav-list ul li a {
+  color:antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: larger;
+}
+
+
+.nav-list ul li a:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+p{
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #ola {
@@ -55,7 +106,7 @@ nav ul li a {
   color: white;
 }
 
-
+/*
 #rodape {
   color: white;
 }
@@ -68,4 +119,41 @@ footer {
   color: white;
   display: block;
   text-align: center;
+}
+*/
+
+.rodape{
+  color: white;
+  display: block;
+  text-align: center;
+  
+}
+
+.link ul{
+  margin-bottom: 0.5rem;
+  
+}
+
+.pe{
+  font-size: smaller;
+  
+  margin-bottom: 0.1rem;
+  margin-top: 1rem;
+}
+
+.rede{
+  font-size: larger;
+  margin-right: 3rem;
+      
+}
+
+a {
+  color: white;
+  
+}
+
+.creditos{ 
+  font-size: smaller;
+  
+  margin-top: 0.1rem;
 }
