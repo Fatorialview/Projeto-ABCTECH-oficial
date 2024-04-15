@@ -1,202 +1,240 @@
-
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-:root{
+#titulo {
+    color: black;
+    text-align: left;
+}
+#subtitulo {
+    color: black;
+}
+:root {
     font-size: 62.5%;
 }
-    
-
-.cabeça{
+.cabeça {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
 }
-
-.logo{
-    
+.logo {
     width: 25%;
     height: 50%;
     margin-left: 1rem;
     padding-left: 3rem;
     margin-top: 2rem;
 }
-
-    
-
-img{
+img {
     border-radius: 60px;
-    
 }
-
 .nav-list ul {
     display: flex;
     list-style: none;
     gap: 10rem;
     margin-right: 40rem;
     font-size: 1.5rem;
-    
 }
-
 .nav-list ul li a {
-    color:antiquewhite;
+    color: antiquewhite;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
     font-size: larger;
     margin-left: 10rem;
 }
-
-
 .nav-list ul li a:hover {
     transform: scale(1.2);
     color: red;
 }
-
-
-#nome{
-    background:  rgb(233, 189, 109);
-    width: auto;
-    border: 1px solid rgb(46, 44, 44);
-    
-}
-#idade{
-    background:  rgb(233, 189, 109);
+#username {
+    margin: 0;
+    padding: 0;
+    background: white;
     width: auto;
     border: 1px solid rgb(46, 44, 44);
 }
-#email{
-    background: rgb(233, 189, 109);
+#idade {
+    background: white;
     width: auto;
     border: 1px solid rgb(46, 44, 44);
 }
-#password{
-    background:  rgb(233, 189, 109);
+#email {
+    background: white;
     width: auto;
     border: 1px solid rgb(46, 44, 44);
 }
-#nivel{
+#senha {
+    background: white;
+    width: auto;
+    border: 1px solid rgb(46, 44, 44);
+}
+#confirma-senha {
+    background: white;
+    width: auto;
+    border: 1px solid rgb(46, 44, 44);
+}
+.helper-text {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+#nivel {
     margin-top: 7px;
 }
-#enviar{
+#enviar {
     margin-top: 7px;
 }
-#home{
+#home {
     margin-top: 10px;
-
 }
-body{
-    background: linear-gradient(rgb(49, 1, 49),blueviolet);
-    margin: 1rem;
+body {
+    background-image: url(tela_registra-se6.jpg);
+    background-size: cover;
+    /* Redimensiona a imagem para cobrir todo o elemento */
+    background-position: center;
+    /* Centraliza a imagem no elemento */
+    /* Outras propriedades opcionais */
+    background-repeat: no-repeat;
+    /* Evita a repetição da imagem */
 }
-
-h1{
+h1 {
     font-size: 4rem;
     margin: 2rem;
     margin-left: 17rem;
     color: rgb(138, 48, 48)
 }
-
-h3{
+h3 {
     font-size: 3rem;
     margin-left: 4rem;
     margin-bottom: 3rem;
     color: rgb(144, 216, 238)
 }
-
-input{
-    font-size: 2.5em;
-    
-}
-
-
-#nome, #idade, #email, #password{
-    margin-bottom: 3rem;
-}
-
-label{
+input {
     font-size: 2.5em;
 }
-
-#nivel{
+label {
+    font-size: 2.5em;
+}
+#nivel {
     font-size: 2.5rem;
 }
-
-button{
+button {
     font-size: 2.5rem;
 }
-
-#enviar{
-    background-color: blue;
-    
+#enviar {
     margin-left: 15rem;
+    background-color: green;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    /* Isso define o raio dos cantos */
+    background-color: green;
+    /* Cor de fundo do botão */
+    color: #fff;
+    /* Cor do texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Efeito de transição suave */
 }
-
-.limpar{
+.limpar {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    /* Isso define o raio dos cantos */
     background-color: red;
-    margin-left: 6rem; 
+    /* Cor de fundo do botão */
+    color: #fff;
+    /* Cor do texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Efeito de transição suave */
 }
-
-#home{
-    margin-left:17rem; 
-    
-    background-color: blue;
+#home {
+    margin-left: 12rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    /* Isso define o raio dos cantos */
+    background-color: lightskyblue;
+    /* Cor de fundo do botão */
+    color: #fff;
+    /* Cor do texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Efeito de transição suave */
 }
-
-h4{
+h4 {
     font-size: 3rem;
     margin: 1.5rem;
 }
-
-.click{
+.click {
     margin-left: 15rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    /* Isso define o raio dos cantos */
     background-color: green;
-    
+    /* Cor de fundo do botão */
+    color: #fff;
+    /* Cor do texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Efeito de transição suave */
 }
-
-
-
-
-
-
-.rodape{
+.rodape {
     color: white;
     display: block;
     text-align: center;
     font-size: 1.5rem;
     margin-top: 7rem;
 }
-
-.link ul{
+.link ul {
     margin-bottom: 0.5rem;
-    
 }
 
-.pe{
+.pe {
     font-size: l;
-    
     margin-bottom: 0.1rem;
     margin-top: 1rem;
 }
-
-.rede{
+.rede {
     font-size: larger;
-    
-        
 }
-
 a {
     color: white;
-    
+}
+.creditos {
+    font-size: smaller;
+    margin-top: 0.1rem;
 }
 
-.creditos{ 
-    font-size: smaller;
-    
-    margin-top: 0.1rem;
+/* ---------- Estilos dinâmicos ---------- */
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+}
+input.error {
+    border: solid 2px #992020;
+    background-color: rgb(240, 71, 71);
+    color: black;
+}
+input.correct {
+    background-color: rgb(5, 128, 5);
+    border: solid 2px #206620;
+    color: black;
+}
+.visible {
+    display: block;
 }
