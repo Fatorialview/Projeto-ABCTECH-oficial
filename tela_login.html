@@ -3,83 +3,61 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style_login.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
-    
+    <link rel="stylesheet" href="style_login.css">
+    <script src="script_login.js" defer></script>
 </head>
 
-<header>
-    <div class="cabeça">
-        <div class="logo">
-          <a href="inicio.html"><img src="./imagens/abctech.png" width="20%"/> </a> 
-        </div>    
-      
-        <!--menu-->
-        <div class="nav-list">
-          <ul>
-            <li><a href="inicio.html">INICIO</a></li>
-            <li><a href="cursos.html">CURSOS</a></li>
-            <li><a href="colabore.html">COLABORE</a></li>
-            <li><a href="contato.html">CONTATO</a></li>
-          </ul>
-        </div>  <!--nav-list-->
-    </div>    
-<header> 
-    
-
 <body>
-   
-    <main>
-        <figure id="foto">
-            <img src="tela_login_imagem.png" alt="" align="right" width="1300" height="650">
-        </figure>
-
-        <font color="black">
-            <h1 id="login"><u>Login</u></h1>
-        </font>
-        <form method="get" action="" id="form"> </form>
-        <fieldset id="Nome">
-            <label for="nome" >Nome:</label>
-            <input type="text" placeholder="Nome"><br>
-        </fieldset>
-        <fieldset id="Senha">
-            <label for="senha" >Senha:</label>
-            <input type="password" placeholder="Senha"><br>
-        </fieldset>
-        <br>
-
-        <div class="info">
-            <button class="botao3"><a class="botao" href="cursos.html">Entrar</a></button>
-            <h3 id="nao_tem_conta">Não tem conta??</h3>
-            <button class="botao4"><a class="botao2" href="tela_registra-se.html">registre-se aqui</a></button>
+    <header>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="inicio.html">INÍCIO</a></li>
+                    <li><a href="cursos.html">CURSOS</a></li>
+                    <li><a href="colabore.html">COLABORE</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </div>
         </div>
+    </header>
 
+    <main >
+        <div class="login">
+            <img src="abctech.png">
+        <h1 id="login">Login</h1>
+        <form id="loginForm" action="cursos.html">
+            
+            <label for="nome" id="user"><h2>Nome:</h2</label>
+            <input type="text" name="nome" id="Nome" required><br>
+            <small class="error" id="textNome"></small>
+
+            <label for="senha" id="SENHA">Senha:</label>
+            <input type="password" name="senha" id="senha" required><br>
+            <small class="error" id="textSenha"></small><br>
+
+            <button type="submit" class="botao3"><a href="cursos.html"><h2>Entrar</h2></a></button>
+        </form>
+
+        <div>
+            <h3 id="nao_tem_conta">Não tem conta?</h3>
+            <button type="button" class="botao3" disabled="true"><a href="tela_registra-se.html"><h2>Registra-se</h2></a></button>
+        </div>
+    </div>
     </main>
 
+    <footer>
+        <div class="rodape">
+            <p class="pe">Visite nossas redes sociais</p>
+            <div class="link">
+                <ul class="rede">
+                    <li><a href="https://github.com/Fatorialview/Projeto-ABCTECH-oficial" target="_blank">GitHub</a></li>
+                </ul>
+                <p class="creditos">© ABCTech todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
 
-    <footer>  
-        
-        <div class="rodape">      
-            <p class="pe"> Visite nossas rede sociais </p>
-              <div class="link">
-                  <ul class="rede">
-                      <li><a href="https://github.com/Fatorialview/Projeto-ABCTECH-oficial" target="_blank"> GitHub </a></li>
-                  </ul>
-                
-                  
-                  <p class="creditos"><i>© ABCTech todos os direitos reservados</i></p>
-  
-                   
-  
-              </div>
-        </div>     
-        
-      </footer>
-
-    
-    
 </body>
 
 </html>
