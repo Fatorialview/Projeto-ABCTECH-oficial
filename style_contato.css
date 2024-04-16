@@ -7,13 +7,94 @@
 }
 
 
+:root{
+    font-size: 62.5%;
+}
+
+body {
+   
+    font-size: 1.6rem;
+    
+}
+
+.cabeça{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    
+    width: 25%;
+    height: 50%;
+    margin-left: 1rem;
+    padding-left: 3rem;
+}
+
+    
+
+img{
+    border-radius: 60px;
+    
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    margin-right: 40rem;
+}
+
+.nav-list ul li a {
+    color:antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+
+.nav-list ul li a:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+.nav-login ul li{
+    list-style: none;
+    font-weight: bold;
+    background-color: rgb(231, 86, 195);
+    border-radius: 2rem;
+    transition: transform .2s;
+    margin: 2rem;
+    margin-right: 10rem;
+    
+}
+
+.nav-login ul li a{
+    color: white;
+    padding: 1.3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-login ul li:hover{
+    transform: scale(1.2);
+}
+
+
 body {
     background: linear-gradient(-120deg, #481875, #11031f);
+    
 }
 
 body,
 textarea {
     font-family: sans-serif;
+    margin-bottom: 25rem;
+    
 }
 
 .container {
@@ -22,6 +103,7 @@ textarea {
     align-items: center;
     width: 100%;
     height: 100vh;
+    
 }
 
 
@@ -87,4 +169,43 @@ textarea {
 
 .form_box button:hover{
     background-color: #571199;
+}
+
+
+
+
+.rodape{
+    color: white;
+    display: block;
+    text-align: center;
+    
+}
+
+.link ul{
+    margin-bottom: 0.5rem;
+    
+}
+
+.pe{
+    font-size: smaller;
+    
+    margin-bottom: 0.1rem;
+    margin-top: 1rem;
+}
+
+.rede{
+    font-size: larger;
+    
+        
+}
+
+a {
+    color: white;
+    
+}
+
+.creditos{ 
+    font-size: smaller;
+    
+    margin-top: 0.1rem;
 }
