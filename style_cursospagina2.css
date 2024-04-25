@@ -60,7 +60,8 @@ footer{
     color: white;
     display: block;
     text-align: center;
-    
+    margin-top: 5rem;
+    margin-left: 9rem;
 }
 
 .link ul{
@@ -116,7 +117,7 @@ h1{
 
 .tumblr1 {
     margin: 2px;
-    margin-left: 600px;
+    margin-left: 650px;
     margin-bottom: 5px;
     width: 25%;
 }
@@ -128,7 +129,7 @@ h1{
 }
 
 .link1{
-    margin: 800px;
+    margin: 820px;
     margin-bottom: 10px;
 }
 
@@ -154,7 +155,7 @@ h1{
 }
 
 .link2{
-    margin: 800px;
+    margin: 820px;
     margin-bottom: 30px;
 }
 
@@ -180,7 +181,7 @@ h1{
 }
 
 .link3{
-    margin: 800px;
+    margin: 820px;
     margin-bottom: 30px;
 }
 
@@ -194,9 +195,9 @@ h1{
 
 .tumblr4 {
     margin: 2px;
-    margin-left: 500px;
+    margin-left: 580px;
     margin-bottom: 10px;
-    
+    width: 33rem;
 }
 
 .p4 {
@@ -206,7 +207,7 @@ h1{
 }
 
 .link4{
-    margin: 800px;
-    margin-bottom: 5    0px;
+    margin: 820px;
+    margin-bottom: 50px;
 }
 

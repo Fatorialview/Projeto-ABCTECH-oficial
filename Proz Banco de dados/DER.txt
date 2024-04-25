@@ -1,0 +1,66 @@
+Entidade Estudante:
+
+Atributos:
+id_estudante
+nome_completo
+idade
+email
+
+Entidade curso
+
+Atributos:
+id_curso
+nome_curso
+ID_estudante
+ID_professor
+
+Entidade professor:
+
+Atributos:
+id_professor
+nome_professor
+email_professor
+
+
+Entidade: inscrição
+
+Atributos: 
+id_inscrição
+id_estudante
+id_curso
+
+
+
+   +-------------------+       +-------------------+
+   |     Estudante     |       |      Professor    |
+   +-------------------+       +-------------------+
+   | ID_estudante (PK) |       | ID_professor (PK) |
+   | Nome_completo     |       | Nome_Professor    |
+   | Idade             |       | Email             |
+   | Email             |       +-------------------+
+   +-------------------+       
+            |                           |
+            |                           |
+            |         matricula         |
+            +---------------------------+
+                        |
+                        |
+                        v
+              +-------------------+
+              |     Inscrição     |
+              +-------------------+
+              | ID_inscricao (PK) |
+              | ID_estudante (FK) |
+              | ID_curso (FK)     |
+              +-------------------+
+                        |
+                        |
+                        v
+              +-------------------+
+              |       Curso       |
+              +-------------------+
+              | ID_curso (PK)     |
+              | Nome              |
+              | ID_estudante      |
+              | ID_professor (FK) |
+              +-------------------+
